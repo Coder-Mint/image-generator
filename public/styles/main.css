@@ -1,0 +1,22 @@
+body {  /* Give the webpage a Nunito font and center the elements (and the text) both vertically and horizontally */
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {  /* Give all images ronded corners, a fixed height (not too big, not too small, and the width will be adjusted automatically), and 15px of spacing at the top and bottom. */
+    border-radius: 5%;
+    height: 30rem;
+    margin: 15px auto;
+}
+
+.download {  /* Make the download button go on a new line */
+    display: block;
+}
+
+.error-msg {  /* Give the error message a red text color */
+    color: red;
+}
