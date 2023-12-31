@@ -8,7 +8,7 @@ body {  /* Give the webpage a Nunito font and center the elements (and the text)
 }
 
 img {  /* Give all images ronded corners, a fixed height (not too big, not too small, and the width will be adjusted automatically), and 15px of spacing at the top and bottom. */
-    border-radius: 5%;
+    border-radius: 10px;
     height: 30rem;
     margin: 15px auto;
 }
